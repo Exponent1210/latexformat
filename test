@@ -1,0 +1,48 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{babel}
+\usepackage{pxjahyper}
+\usepackage{zxjatype}
+\setjamainfont{IPAexGothic}
+
+\coordinate (id) 
+\title{論文のタイトル}
+\author{著者名}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+この論文の要約です。研究の概要、方法、結果、および結論を簡潔に示します。
+\end{abstract}
+
+\section{はじめに}
+このセクションでは、トピックに関する背景情報を提供し、研究の目的を概説します。
+
+\section{方法}
+このセクションでは、研究で使用された方法と手順を説明します。
+
+\section{結果}
+このセクションでは、研究の結果を示します。
+
+\section{考察}
+このセクションでは、結果を解釈し、その意味を議論します。
+
+\section{結論}
+このセクションでは、主な発見をまとめ、将来の研究の方向性を提案します。
+
+\begin{thebibliography}{9}
+\bibitem{example} 著者, \textit{書籍のタイトル}, 出版社, 年.
+\end{thebibliography}
+
+\end{document}
