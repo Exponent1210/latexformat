@@ -1,6 +1,6 @@
-PWD /Users/Ayane/Desktop/test4
+PWD /Users/Ayane/Desktop/latexformat-main
 INPUT /usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT /Users/Ayane/Desktop/test4/test.tex
+INPUT /Users/Ayane/Desktop/latexformat-main/test.tex
 OUTPUT test.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ltluatex.lua

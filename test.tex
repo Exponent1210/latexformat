@@ -15,7 +15,6 @@
 \usepackage{tikz}
 \usepackage{tikz-feynman}
 
-
 \title{論文のタイトル}
 \author{著者名}
 \date{\today}
@@ -24,11 +23,9 @@
 
 \maketitle
 
-
 \begin{abstract}
-この論文の要約です。研究の概要、方法、結果、および結論を簡潔に示します。
+この論文の要約です。研究の概要、方法、結果、および結論を簡潔に示します。お願いします。
 \end{abstract}
-
 
 \section{Feynman図}
 以下に、基本的なFeynman図の例を示します。
@@ -52,13 +49,25 @@
 \end{figure}
 
 
-\begin{figure}[h]
-    \centering
-    \feynmandiagram [horizontal=a to b] {
-      a -- [fermion] b -- [fermion] a,
-    };
-    \caption{基本的なフェインマン図}
-  \end{figure}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|c|}
+      \hline
+      名前 & 年齢 & 職業 \\
+      \hline
+      Alice & 24 & エンジニア \\
+      \hline
+      Bob & 27 & デザイナー \\
+      \hline
+      Charlie & 22 & データサイエンティスト \\
+      \hline
+  \end{tabular}
+  \caption{サンプルの表}
+  \label{tab:sample}
+\end{table}
+
+
 \section{Chern-Simons理論}
 \begin{equation}
     S_{\mathrm{CS}} = \frac{k}{4\pi} \int_{\mathbb{R}^3} \epsilon^{\mu\nu\rho} \text{Tr} \left( A_\mu \partial_\nu A_\rho + \frac{2}{3} A_\mu A_\nu A_\rho \right) d^3x
@@ -103,9 +112,7 @@ S_{\mathrm{CS}} = \frac{k}{4\pi} \int_{\mathbb{R}^3} \epsilon^{\mu\nu\rho} \left
 ここで、$ f^{abc} $ はSU(2)の構造定数です。
 
 このように、Chern-Simons作用の式を成分ごとに展開し、生成子の性質を利用して変形しました。
-こんに
-このセクションでは、トピックに関する背景情報を提供し、研究の目的を概説します。
-ことにした。今までの勉強してきたことを書いていくことにした。
+
 \section{方法}
 このセクションでは、研究で使用された方法と手順を説明します。
 今まで勉強した内容について詳しく説明します。具体的には、使用したデータセット、実験の手順、および分析方法について述べます。
@@ -133,7 +140,6 @@ H = \sum_{i < j < k < l} J_{ijkl} \chi_i \chi_j \chi_k \chi_l
   \end{figure}
 \section{結論}
 このセクションでは、主な発見をまとめ、将来の研究の方向性を提案します。
-yattodekitayo
 
 \begin{thebibliography}{9}
 \bibitem{example} 著者, \textit{書籍のタイトル}, 出版社, 年.
